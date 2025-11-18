@@ -89,7 +89,7 @@ endmodule
 ## XDC FILE (Boolean Board Pin Mapping)
 Use only 3 switches → SW[2:0]
 Use 8 LEDs → LED[7:0]
-``
+```
 # INPUT SWITCHES  (SW[2:0])
 set_property -dict { PACKAGE_PIN V2 IOSTANDARD LVCMOS33 } [get_ports {SW[0]}]
 set_property -dict { PACKAGE_PIN U2 IOSTANDARD LVCMOS33 } [get_ports {SW[1]}]
